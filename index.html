@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Luá] To-do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7a86d0e1c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Minha Lista de Tarefas</h1>
+            <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        </header>
+
+        <div id="nova-tarefa">
+            <input id="texto-tarefa" placeholder="Inserir nova tarefa">
+            <button id="criar-tarefa"><i class="fas fa-plus"></i>
+            </button>
+        </div>
+
+        <ol id="lista-tarefas"></ol>
+
+        <div id="buttons-below">
+            <button id="remover-selecionado" title="Remover selecionado"><i class="fas fa-times"></i></button>
+            <button id="remover-finalizados" title="Remover finalizados"><i class="fas fa-check"></i></button>
+            <button id="apaga-tudo" title="Remover tudo"><i class="fas fa-trash-alt"></i></button>
+        
+            <button id="salvar-tarefas" title="Salvar tarefas"><i class="fas fa-save"></i></button>
+
+            <button id="mover-cima" title="Mover para cima"><i class="fas fa-arrow-up"></i></button>
+            <button id="mover-baixo" title="Mover para baixo"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido em HTML, CSS e Javascript por <a href="https://github.com/luacomacento" target="_blank">Luá</a> :)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 217, 229);
+    font-family: sans-serif;
+}
+
+ol {
+    list-style: inside decimal;
+    padding: 0px;
+}
+
+ol li {
+    padding: 6px;
+}
+
+main {
+    background-color: white;
+    border-radius: 16px;
+    padding: 56px;
+    margin: 56px auto 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+header p {
+    color:rgb(128, 128, 128);
+    margin-bottom: 32px;
+    text-transform: lowercase;
+}
+
+input {
+    height: 24px;
+}
+
+button {
+    background-color: grey;
+    border-radius: 100%;
+    border: 0;
+    width: 42px;
+    cursor: pointer;
+    height: 42px;
+    text-align: center;
+    color: white;
+}
+
+button i {
+    font-size: 16px;
+}
+
+#buttons-below {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+#remover-selecionado {
+    background-color: red;
+}
+
+#apaga-tudo {
+    background-color: red;
+}
+
+#remover-finalizados {
+    background-color: red;
+}
+
+#salvar-tarefas {
+    background-color: blue;
+}
+
+#nova-tarefa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background-color: white;
+    border: 1px solid purple; 
+    border-radius: 8px;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+#nova-tarefa input {
+    border: 0;
+}
+
+#nova-tarefa input:focus {
+    outline: none;
+}
+
+#criar-tarefa {
+    background-color: rgb(151, 95, 173);
+    color: white;
+    border-radius: 100%;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
+
+#criar-tarefa i {
+    font-size: 12px;
+}
+
+#criar-tarefa:active {
+    background-color: rgb(103, 42, 128);
+}
+
+.selected {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+.completed {
+    text-decoration: line-through black;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(103, 42, 128);
+    margin: 20px 0;
+}
