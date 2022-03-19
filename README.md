@@ -1,6 +1,6 @@
 ## To-Do List 📌:
 
-<img src="./preview.gif">
+<div align="center"><img src="./preview.gif"></div>
 
 ## About:
 <p>Small project developed during the Web Development Fundamentals module at Trybe.</p>
