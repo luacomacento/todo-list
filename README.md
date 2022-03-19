@@ -16,6 +16,4 @@
 </ul>
 
 ## In works:
-<p>Currently I am not actively working on this project. However, I would like to add the possibility for entirely custom boards, 
-where the user defines how many tiles and how many bombs they want to play with.</p>
-<p>I also plan on creating a mini tutorial for those who don't know how to play Minesweeper. But for the time being, just Google it! :)</p>
+As of now, I am no longer working on this project.
